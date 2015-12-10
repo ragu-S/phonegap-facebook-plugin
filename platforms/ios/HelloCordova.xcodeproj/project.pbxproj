@@ -27,10 +27,9 @@
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
 		411D6B9319343AE400BE1845 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 411D6B9219343AE400BE1845 /* FacebookConnectPlugin.m */; };
-		411D6B9619343B4900BE1845 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D6B9519343B4900BE1845 /* FacebookSDK.framework */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		7CF4E4701C161BD0000D7941 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF4E46F1C161BD0000D7941 /* Bolts.framework */; };
+		7C2061F11C19E27900DA0FEE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2061F01C19E27900DA0FEE /* FacebookSDK.framework */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
 		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
 		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
@@ -91,10 +90,9 @@
 		32CA4F630368D1EE00C91783 /* HelloCordova-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HelloCordova-Prefix.pch"; sourceTree = "<group>"; };
 		411D6B9119343AE400BE1845 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookConnectPlugin.h; sourceTree = "<group>"; };
 		411D6B9219343AE400BE1845 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookConnectPlugin.m; sourceTree = "<group>"; };
-		411D6B9519343B4900BE1845 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		7CF4E46F1C161BD0000D7941 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../phonegap-facebook-plugin/platforms/ios/FacebookSDKs-iOS-20150910/Bolts.framework"; sourceTree = "<group>"; };
+		7C2061F01C19E27900DA0FEE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../../../../Users/intricus/Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -120,8 +118,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				411D6B9619343B4900BE1845 /* FacebookSDK.framework in Frameworks */,
-				7CF4E4701C161BD0000D7941 /* Bolts.framework in Frameworks */,
+				7C2061F11C19E27900DA0FEE /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +206,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7CF4E46F1C161BD0000D7941 /* Bolts.framework */,
-				411D6B9519343B4900BE1845 /* FacebookSDK.framework */,
+				7C2061F01C19E27900DA0FEE /* FacebookSDK.framework */,
 				5AEE5B34173C68D80009041E /* CoreLocation.framework */,
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -485,6 +481,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Volumes/disk2s1/javascript/MUSTANG/phonegap-facebook-plugin/platforms/ios/FacebookSDKs-iOS-20150910",
+					/Users/intricus/Documents/FacebookSDK,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -523,6 +520,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Volumes/disk2s1/javascript/MUSTANG/phonegap-facebook-plugin/platforms/ios/FacebookSDKs-iOS-20150910",
+					/Users/intricus/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCordova/HelloCordova-Prefix.pch";
