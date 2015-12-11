@@ -102,6 +102,7 @@
         </config-file>
 
         <!-- Facebook framework -->
+        <framework src="platforms/ios/Bolts.framework" custom="true" />
         <framework src="platforms/ios/FacebookSDK.framework" custom="true" />
 
         <!-- System frameworks -->
